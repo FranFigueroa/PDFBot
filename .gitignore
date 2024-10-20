@@ -1,0 +1,21 @@
+# Entorno virtual
+env/
+venv/
+
+# Archivos de sistema
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos de configuración
+*.env
+
+# Streamlit cache
+.streamlit/
+
+# Archivos de logs
+*.log
+
+# Archivos de datos temporales
+*.sqlite3
+

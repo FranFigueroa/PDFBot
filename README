@@ -1,0 +1,70 @@
+# Multi-PDFs Chat App AI 🤖📚
+
+Este proyecto es una aplicación simple que permite a los usuarios subir múltiples PDFs, procesarlos, extraer su texto y posteriormente hacer consultas sobre ellos utilizando inteligencia artificial.
+
+## Descripción
+
+La aplicación utiliza **Streamlit** para la interfaz de usuario, donde puedes subir archivos PDF, y **pdfplumber** para extraer el texto de los documentos. En fases futuras, el sistema será capaz de responder preguntas sobre los PDFs utilizando modelos de lenguaje y bases de datos vectoriales como FAISS.
+
+### Funcionalidades actuales:
+
+- Subida de múltiples archivos PDF.
+- Extracción y visualización del texto contenido en los PDFs.
+
+## Requisitos
+
+- Python 3.8 o superior
+- pip (el gestor de paquetes de Python)
+
+## Instalación
+
+1. Clona este repositorio en tu máquina local:
+    ```bash
+    git clone https://github.com/tu_usuario/multi-pdf-chat-app.git
+    ```
+
+2. Navega a la carpeta del proyecto:
+    ```bash
+    cd multi-pdf-chat-app
+    ```
+
+3. (Opcional) Crea y activa un entorno virtual:
+    ```bash
+    python -m venv env
+    source env/bin/activate  # En macOS/Linux
+    .\env\Scripts\activate   # En Windows
+    ```
+
+4. Instala las dependencias:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+5. Ejecuta la aplicación:
+    ```bash
+    streamlit run app.py
+    ```
+
+## Tecnologías utilizadas
+
+- **Streamlit**: Para la creación de la interfaz de usuario interactiva.
+- **pdfplumber**: Para extraer el texto de los PDFs.
+
+## Próximos pasos
+
+Este es el primer paso del proyecto. Próximamente, se implementará:
+
+- Dividir el texto extraído en fragmentos (chunks).
+- Indexar los fragmentos utilizando FAISS.
+- Utilizar modelos de lenguaje como Google Gemini para responder preguntas sobre los PDFs.
+
+¡Gracias por revisar este proyecto!
+
+## Contribuciones
+
+Si deseas contribuir a este proyecto, puedes hacer un fork del repositorio y enviar tus pull requests. Toda ayuda es bienvenida.
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT.
+
